@@ -1,0 +1,22 @@
+{
+  "name": "ino-theme",
+  "displayName": "ino theme",
+  "description": "",
+  "publisher": "inoplanetyanya",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.125.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ino theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ino-theme-color-theme.json"
+      }
+    ]
+  }
+}
